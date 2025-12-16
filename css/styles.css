@@ -1,4 +1,8 @@
-.body {}
+.body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
 
 .header {}
 
@@ -26,7 +30,7 @@
 }
 
 .header-list {
-    list-style-type: none;
+    list-style: none;
 }
 
 .header-list-item {
@@ -44,11 +48,11 @@
 }
 
 .header-address {
-
+    font-style: normal;
 }
 
 .header-adress-list {
-    list-style-type: none;
+    list-style: none;
 }
 
 .header-adress-list-item {
@@ -59,6 +63,8 @@
         letter-spacing: 0.02em;
         color: #434455;
         text-decoration: none;
+        font-style: normal;
+        
 }
 
 .header-adress-list-item:hover {
@@ -157,6 +163,7 @@
 }
 
 .ourteam-list-item {
+    background-color: #fff;
 
 }
 
@@ -268,3 +275,8 @@
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
+
+
+
+
+
