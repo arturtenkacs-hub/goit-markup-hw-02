@@ -43,7 +43,7 @@
         text-decoration: none;
 }
 
-.header-list-item:hover,.header-list-item:active {
+.header-list-item:hover,.header-list-item:active,.header-list-item:focus {
     color: #404bbf;
 }
 
@@ -67,7 +67,7 @@
         
 }
 
-.header-adress-list-item:hover {
+.header-adress-list-item:hover,.header-list-item:focus {
     color: #404bbf;
 }
 
@@ -100,9 +100,10 @@
         letter-spacing: 0.04em;
         color: #fff;
         background: #4d5ae5;
+        cursor: pointer;
 }  
 
-.hero-button:hover {
+.hero-button:hover,.header-list-item:focus {
     background: #404bbf;
 }
 
