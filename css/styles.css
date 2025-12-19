@@ -67,7 +67,7 @@
         
 }
 
-.header-adress-list-item:hover,.header-list-item:focus {
+.header-adress-list-item:hover {
     color: #404bbf;
 }
 
@@ -103,7 +103,7 @@
         cursor: pointer;
 }  
 
-.hero-button:hover,.header-list-item:focus {
+.hero-button:hover,.header-list-item:focus,.header-list-item:active  {
     background: #404bbf;
 }
 
